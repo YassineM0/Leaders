@@ -4,7 +4,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <div>
-      <div className="flex flex-col lg:flex-row  justify-center lg:justify-between items-center gap-5 p-1  bg-white shadow-lg">
+      <div className="flex flex-col lg:flex-row  justify-center lg:justify-between items-center gap-5 p-1 px-2  bg-white shadow-lg">
         <Image
           src="/logo.png"
           alt="Vercel Logo"
@@ -14,12 +14,24 @@ const Navbar = () => {
           priority
         />
         <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5 pr-5">
-          <a href="">Home</a>
-          <a href="">About us</a>
-          <a href="">Sponsors</a>
-          <a href="">Competitions</a>
-          <a href="">Projects</a>
-          <a href="">Members</a>
+          <a href="" className="font-medium text-items ">
+            Home
+          </a>
+          <a href="" className="font-medium text-items">
+            About us
+          </a>
+          <a href="" className="font-medium text-items">
+            Sponsors
+          </a>
+          <a href="" className="font-medium text-items">
+            Competitions
+          </a>
+          <a href="" className="font-medium text-items">
+            Projects
+          </a>
+          <a href="" className="font-medium text-items">
+            Members
+          </a>
         </div>
       </div>
     </div>

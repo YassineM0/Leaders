@@ -3,21 +3,21 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="container max-w-full mt-12 bg-gray-50">
-      <div className="grid grid-cols-[1fr_2fr]">
+    <div className="container max-w-full mt-2 bg-hero p-11">
+      <div className="grid grid-cols-[1fr_2fr] ">
         <div className="">
           <Image
             src="/logo.jpeg"
             alt="Leaders logo"
             className="dark:invert p-1"
-            width={400}
+            width={350}
             height={5}
             priority
           />
         </div>
         <div className="">
-          <h1 className="text-2xl font-sans font-semibold">About us</h1>
-          <p className="text-justify font-sans text-xl">
+          <h1 className="text-5xl  font-semibold text-txt">About us</h1>
+          <p className="text-justify  text-xl text-pp  font-medium pr-2">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida

@@ -4,6 +4,8 @@ import Test from "./components/Test";
 import Heroo from "./components/Heroo";
 import About from "./components/About";
 import Sponsors from "./components/Sponsors";
+import Competitions from "./components/Competitions";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <Heroo />
       <About />
       <Sponsors />
+      <Competitions />
+      <Projects />
     </main>
   );
 }
