@@ -49,18 +49,20 @@ module.exports = {
     },
     fontSize: {
       sm: '0.8rem',
-      base: '1rem',
+      base: '1.1rem',
       xl: '1.25rem',
       '2xl': '1.563rem',
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
-      '6xl':'3.7rem',
+      '6xl':'3rem',
     },
     padding: {
-      '77': '12.5rem',
-      '22': '6rem',
+      '77': '11rem',
+      '22': '9rem',
+      '23': '9rem',
       '1': '0.3rem',
+      '4': '1rem',
       '2': '3rem',
       '11': '2rem',
       '3': '4rem',
@@ -68,9 +70,20 @@ module.exports = {
     margin: {
       '3': '0.7rem',
       '2': '3em',
+      '4': '2em',
       '1': '1em'
     }
 
+  },
+  borderRadius: {
+    'none': '0',
+    'sm': '0.125rem',
+    DEFAULT: '0.25rem',
+    DEFAULT: '4px',
+    'md': '0.375rem',
+    'lg': '0.5rem',
+    'full': '9999px',
+    'large': '12px',
   },
   plugins: [require('flowbite/plugin'),],
 };

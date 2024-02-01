@@ -16,8 +16,8 @@ const About = () => {
           />
         </div>
         <div className="">
-          <h1 className="text-5xl  font-semibold text-txt">About us</h1>
-          <p className="text-justify  text-xl text-pp  font-medium pr-2">
+          <h1 className="text-4xl  font-semibold text-txt">About us</h1>
+          <p className="text-justify  text-base text-pp  font-medium pr-2">
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
             enim metus. Vivamus sed libero ornare, tristique quam in, gravida

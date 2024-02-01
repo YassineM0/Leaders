@@ -4,7 +4,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <div>
-      <div className="flex flex-col lg:flex-row  justify-center lg:justify-between items-center gap-5 p-1 px-2  bg-white shadow-lg">
+      <div className="flex flex-col lg:flex-row  justify-center lg:justify-between items-center gap-5 p-1 px-2  bg-white shadow-lg mb-4">
         <Image
           src="/logo.png"
           alt="Vercel Logo"
