@@ -1,8 +1,17 @@
+import React from 'react'
+import Cardd from './Cardd'
 
+const Test = () => {
+  return (
+    <div>
+      <Cardd
+        title='pep'
+        image='/shell.png'
+        description='leleeleleleelelle'
+        
+      />
+    </div>
+  )
+}
 
-const Test = ({ description, title, image }) => {
-  return 
-  <div></div>;
-};
-
-export default Test;
+export default Test

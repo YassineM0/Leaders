@@ -5,7 +5,9 @@ import Heroo from "./components/Heroo";
 import About from "./components/About";
 import Sponsors from "./components/Sponsors";
 import Competitions from "./components/Competitions";
-import Projects from "./components/Projects";
+import Cardd from "./components/Cardd"
+import Members from "./components/Members";
+
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
       <About />
       <Sponsors />
       <Competitions />
-      <Projects />
+      <Cardd />
+      <Members />
+
     </main>
   );
 }

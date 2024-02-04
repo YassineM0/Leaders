@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Competitions = () => {
   return (
-    <div className="container max-w-full mt-1">
+    <div className="container max-w-full mt-2">
       <div className="flex flex-col">
         <div>
           <h1 className="text-5xl flex justify-center text-txt font-semibold">
@@ -11,10 +11,10 @@ const Competitions = () => {
             Competitions
           </h1>
         </div>
-        <div className="grid grid-cols-[1fr_1fr_1fr_1fr] pl-22">
+        <div className="grid grid-cols-[1fr_1fr_1fr_1fr] pl-22 pt-2">
           <div>
             <Image
-              src="/wd.png"
+              src="/logo.png"
               alt="Leaders logo"
               className="dark:invert p-1"
               width={200}
@@ -24,7 +24,7 @@ const Competitions = () => {
           </div>
           <div>
             <Image
-              src="/wd.png"
+              src="/logo.png"
               alt="Leaders logo"
               className="dark:invert p-1"
               width={200}
@@ -34,7 +34,7 @@ const Competitions = () => {
           </div>
           <div>
             <Image
-              src="/wd.png"
+              src="/logo.png"
               alt="Leaders logo"
               className="dark:invert p-1"
               width={200}
@@ -44,7 +44,7 @@ const Competitions = () => {
           </div>
           <div>
             <Image
-              src="/wd.png"
+              src="/logo.png"
               alt="Leaders logo"
               className="dark:invert p-1"
               width={200}

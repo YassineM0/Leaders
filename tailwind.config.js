@@ -8,6 +8,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '128': '10rem',
+        '1': '119rem',
+        '4': '6rem',
+        '2': '6rem',
+        '3':'20rem',
+        '7': '36.5rem',
+        '6': '67rem',
+        '55': '153rem',
+
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -42,7 +53,8 @@ module.exports = {
       'hero':'#F5F7FA',
       'greenLeaders':'#4CAF4F',
       'txt':'#4D4D4D',
-      'pp':'#717171'
+      'pp':'#717171',
+      'card':'#F5F7FA',
     },
     fontFamily: {
       'sans': ['ui-sans-serif'], 'heroInter': ['Inter', 'sans'],
@@ -66,6 +78,7 @@ module.exports = {
       '2': '3rem',
       '11': '2rem',
       '3': '4rem',
+      '5': '9rem',
     },
     margin: {
       '3': '0.7rem',
@@ -81,7 +94,8 @@ module.exports = {
     DEFAULT: '0.25rem',
     DEFAULT: '4px',
     'md': '0.375rem',
-    'lg': '0.5rem',
+    'lg': '5rem',
+    'llg': '0.5rem',
     'full': '9999px',
     'large': '12px',
   },
