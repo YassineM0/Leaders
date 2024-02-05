@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Cardd = () => {
   return (
-    <div className="mt-2">
+    <div id="Projects" className="mt-2">
       <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-txt pr-77 text-center pl-5">
         Projects
       </h1>

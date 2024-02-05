@@ -7,6 +7,8 @@ import Sponsors from "./components/Sponsors";
 import Competitions from "./components/Competitions";
 import Cardd from "./components/Cardd"
 import Members from "./components/Members";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
       <Competitions />
       <Cardd />
       <Members />
+      <Contact />
+      <Footer />
 
     </main>
   );

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Competitions = () => {
   return (
-    <div className="container max-w-full mt-2">
+    <div id="Competitions" className="container max-w-full mt-2">
       <div className="flex flex-col">
         <div>
           <h1 className="text-5xl flex justify-center text-txt font-semibold">

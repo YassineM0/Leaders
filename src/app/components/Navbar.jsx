@@ -14,22 +14,22 @@ const Navbar = () => {
           priority
         />
         <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
-          <a href="" className="font-medium text-items ">
+          <a href="#heroo" className="font-medium text-items ">
             Home
           </a>
-          <a href="" className="font-medium text-items">
+          <a href="#About" className="font-medium text-items">
             About us
           </a>
-          <a href="" className="font-medium text-items">
+          <a href="#Sponsors" className="font-medium text-items">
             Sponsors
           </a>
-          <a href="" className="font-medium text-items">
+          <a href="#Competitions" className="font-medium text-items">
             Competitions
           </a>
-          <a href="" className="font-medium text-items">
+          <a href="#Projects" className="font-medium text-items">
             Projects
           </a>
-          <a href="" className="font-medium text-items">
+          <a href="#Members" className="font-medium text-items">
             Members
           </a>
         </div>

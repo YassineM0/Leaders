@@ -13,10 +13,13 @@ module.exports = {
         '1': '119rem',
         '4': '6rem',
         '2': '6rem',
+        '222': '10.4rem',
         '3':'20rem',
-        '7': '36.5rem',
+        '7': '37.2rem',
         '6': '67rem',
-        '55': '153rem',
+        '66': '64rem',
+        '55': '170rem',
+        '75': '145rem',
 
       },
       backgroundImage: {
@@ -55,6 +58,8 @@ module.exports = {
       'txt':'#4D4D4D',
       'pp':'#717171',
       'card':'#F5F7FA',
+      'mail':'#212121',
+      'ftr':'#263238',
     },
     fontFamily: {
       'sans': ['ui-sans-serif'], 'heroInter': ['Inter', 'sans'],
@@ -70,10 +75,12 @@ module.exports = {
       '6xl':'3rem',
     },
     padding: {
+      '88': '30rem',
       '77': '11rem',
+      '33': '8rem',
       '22': '9rem',
       '23': '9rem',
-      '1': '0.3rem',
+      '1': '0.2rem',
       '4': '1rem',
       '2': '3rem',
       '11': '2rem',
@@ -82,6 +89,7 @@ module.exports = {
     },
     margin: {
       '3': '0.7rem',
+      '33': '8rem',
       '2': '3em',
       '4': '2em',
       '1': '1em'
